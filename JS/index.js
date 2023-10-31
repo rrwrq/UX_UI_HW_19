@@ -1,13 +1,10 @@
-$(document).ready(function(){
-    $("#workButton").hover(function(){
-        $(this).css("background-color", "violet"
-            );
+$("#workButton").hover(function(){
+    $(this).css("background-color", "violet"
+        );
 
-        },function(){
-            $(this).css("background-color", "gray");
+    },function(){
+        $(this).css("background-color", "gray");
         
-        });
+    });
 
 
-
-});
