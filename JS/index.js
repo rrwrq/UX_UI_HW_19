@@ -13,6 +13,4 @@ $(function(){
       'transform':"translatey(0px)"
     });
   });
-
-
 })
