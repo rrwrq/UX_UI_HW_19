@@ -6,6 +6,18 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+h4{
+    font-weight: 450;
+    font-size: 60px;
+    color: #FAFAFA;
+}
+
+h6{
+    font-weight: 400;
+    font-size: 50px;
+    color: #FAFAFA;
+}
+
 h1{
     font-weight: 600;
     font-size: 24px;
@@ -19,6 +31,12 @@ h2{
 h3{
     font-size: 24px;
     size: 40%;
+}
+
+h5{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FAFAFA;
 }
 
 p{
