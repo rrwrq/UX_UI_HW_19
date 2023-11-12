@@ -151,6 +151,10 @@ html{
 }
 
 #projectHomepage img{
+    box-shadow: 0px 2px 4px -2px gray;
+}
+
+#projectHomepage img{
     border-radius: 4%;
 }
 
