@@ -178,7 +178,11 @@ footer{
     padding: 140px;
     margin-top: 200px;
     background-color: #1F1F1F;
-    color: white;
+    color: #FAFAFA;
+}
+
+footer p{
+    color:#FAFAFA;
 }
 
 .gridContainer{
