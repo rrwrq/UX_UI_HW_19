@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Mercury Huang</title>
+    <link rel="icon" href="./Images/MH logo tab.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&family=Young+Serif&display=swap" rel="stylesheet">
     <link href="CSS/style.css" type="text/css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="JS/index.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7V2811NK7"></script>
     <script>
@@ -20,7 +22,7 @@
 </head>
 
 <body>
-<header>
+<header class="fixedNav">
     <a href="https://rrwrq.github.io/UX_UI_HW_19/"><img src="Images/MH logo.png" width="36px"></a>
     <div class="navigation">
         <div id=contactButton>Contact</div>
@@ -59,7 +61,7 @@
 <section id="projectHomepage">
     <div class="row1">
         <div class="floatLeft">
-            <img src="Images/Green Tree.jpg" width="300px">
+            <img src="Images/Green Tree.jpg" width="300px" data-toggle="tooltip" data-placement="right" title="Tooltip on bottom">
             <h2>Green Tree | A textile recycling non-profit organization</h2>
             <p>A non-profit organization responsive website redesign project</p>
         </div>
@@ -135,9 +137,6 @@
     </div>
 </footer>
 
-
-<script src="JS/index.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
 </body>
 </html>
